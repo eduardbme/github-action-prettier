@@ -1,0 +1,14 @@
+{
+  "name": "@eduardbme/github-action-prettier",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "ncc build index.js"
+  },
+  "dependencies": {
+    "@actions/core": "1.2.6",
+    "prettier": "2.3.2"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "0.26.2"
+  }
+}

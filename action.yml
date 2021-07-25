@@ -1,0 +1,12 @@
+name: eduardbme/github-action-prettier
+description: Prettier CLI on Github Actions
+branding:
+  icon: align-justify
+  color: red
+inputs:
+  args:
+    description: Prettier CLI arguments
+    required: true
+runs:
+  using: node12
+  main: dist/index.js
