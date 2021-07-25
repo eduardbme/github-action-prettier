@@ -10,8 +10,14 @@ or any dependency in advance.
 # Check out the repository first.
 - uses: actions/checkout@v2
 
-- uses: eduardbme/eduardbme/github-action-prettier@1.0.0
+- uses: eduardbme/eduardbme/github-action-prettier@2.3.2
   with:
     # prettier CLI arguments.
     args: . --check
 ```
+
+# Version
+
+## The tag version is bound to the `prettier` version.
+
+For example, the tag `2.3.2` will use prettier with version `2.3.2`.
