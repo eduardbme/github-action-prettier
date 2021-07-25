@@ -15,3 +15,9 @@ or any dependency in advance.
     # prettier CLI arguments.
     args: . --check
 ```
+
+# Version
+
+## The tag version is bound to the `prettier` version.
+
+For example, the tag `2.3.2` will use prettier with version `2.3.2`.
